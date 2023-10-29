@@ -1,0 +1,150 @@
+@media only screen and (max-width: 767px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #38b6ff;
+        background-image: url(/Img/NUBE.png);
+        background-size: 98%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 97%;
+    }
+
+    .img_temperature {
+        width: 150px;
+        display: flex;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        height: 88vh;
+        font-size: 200%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .first_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -83%;
+        font-size: 90%;
+        background-color: rgb(0, 102, 255);
+        color: white;
+        padding: 7px;
+        border-radius: 50px;
+       /* box-shadow: 0px 1px 0px rgb(0, 102, 255),
+        0px 2px 0px rgb(0, 102, 255),
+        0px 3px 0px rgb(0, 102, 255),
+        0px 4px 0px rgb(0, 102, 255),
+        0px 5px 0px rgb(0, 102, 255),
+        0px 6px 0px rgb(0, 102, 255),
+        0px 7px 0px rgb(0, 102, 255),
+        0px 8px 0px rgb(0, 102, 255),
+        0px 9px 0px rgb(0, 102, 255),
+        0px 10px 0px rgb(0, 102, 255),
+        0px 20px 10px grey;*/
+        
+  }
+
+    /*.first_button:hover {
+        box-shadow: 0px 1px 0px rgb(0, 102, 255),
+        0px 2px 0px rgb(0, 102, 255),
+        0px 3px 0px rgb(0, 102, 255),
+        0px 4px 0px rgb(0, 102, 255),
+        0px 5px 0px rgb(0, 102, 255),
+        0px 6px 0px rgb(0, 102, 255),
+        0px 7px 10px rgb(0, 102, 255);
+
+  }*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #38b6ff;
+        background-image: url(/Img/NUBE.png);
+        background-size: 90%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img_temperature {
+        width: 150px;
+        display: flex;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        height: 92vh;
+        font-size: 400%;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .first_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -380px;
+        font-size: 15px;
+        background-color: rgb(0, 102, 255);
+        color: white;
+        box-shadow: 0px 1px 0px rgb(0, 102, 255),
+        0px 2px 0px rgb(0, 102, 255),
+        0px 3px 0px rgb(0, 102, 255),
+        0px 4px 0px rgb(0, 102, 255),
+        0px 5px 0px rgb(0, 102, 255),
+        0px 6px 0px rgb(0, 102, 255),
+        0px 7px 0px rgb(0, 102, 255),
+        0px 8px 0px rgb(0, 102, 255),
+        0px 9px 0px rgb(0, 102, 255),
+        0px 10px 0px rgb(0, 102, 255),
+        0px 20px 10px grey;
+        
+  }
+
+    .first_button:hover {
+        box-shadow: 0px 1px 0px rgb(0, 102, 255),
+        0px 2px 0px rgb(0, 102, 255),
+        0px 3px 0px rgb(0, 102, 255),
+        0px 4px 0px rgb(0, 102, 255),
+        0px 5px 0px rgb(0, 102, 255),
+        0px 6px 0px rgb(0, 102, 255),
+        0px 7px 10px rgb(0, 102, 255);
+
+  }
+}
+
