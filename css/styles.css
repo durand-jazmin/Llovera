@@ -96,13 +96,16 @@ main {
 }
 
 .imglluvia {
-width: 250px;
-height: 220px;
+margin-top: 30px;
+margin-right: 10px;
+width: 270px;
+height: 240px;
 }
 
 .titulo {
   background-image: url(/img/cloud.png);
-  background-size: 100vw;
+  background-size: 108vw;
+  background-repeat: no-repeat;
   background-position: left top;
   flex-grow: 1;
   display: flex;
