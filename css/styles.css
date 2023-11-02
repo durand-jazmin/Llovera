@@ -23,7 +23,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
-
+/* hola */
 .titulo {
   background-image: url(/img/cloud.png);
   background-size: cover;
