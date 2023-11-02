@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function obtenerPronosticoLluvia(latitude, longitude) {
-    const url = `https://api.open-meteo.com/v1/forecast?forecast=7&latitude=${latitude}&longitude=${longitude}&current=rain`;
+    const url = `https://api.open-meteo.com/v1/forecast?forecast=7&latitude=${latitude}&longitude=${longitude}&current=rain&timezone=Europe%2FBerlin`;
  //Metodo fetch. Solicita a la api el pronostico
     fetch(url, {
       method: "GET",//pregunta
